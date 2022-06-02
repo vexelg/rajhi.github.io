@@ -1,6 +1,0 @@
-.toggle details summary ~ .component > .component-content {
-    display: none;
-}
-.toggle details[open] summary ~ .component > .component-content {
-    display: block;
-}

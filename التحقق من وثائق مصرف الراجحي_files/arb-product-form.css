@@ -1,0 +1,556 @@
+.form {
+    overflow: hidden;
+}
+
+*::placeholder {
+    opacity: 0.22;
+    font-family: notosansenglish-regular;
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+
+}
+
+.enhc-product-form {
+    width: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+ul.signatures-list.signatures-list-green li {
+    background-image: url(../images/icons/green-check.png);
+    font-family: notosansenglish-regular;
+    color: #172328;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.enhc-product-form .page-header {
+
+    font-family: notosansenglish-light;
+    font-size: 24px;
+    color: #172328;
+    font-weight: 300;
+    line-height: 36px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.enhc-product-form > p {
+    padding: 0 0 50px;
+}
+
+.pws-form-heading {
+    counter-reset: section;
+}
+
+.enhc-product-form label {
+    font-family: 'Work Sans';
+    font-size: 11px;
+    color: #172328 !important;
+    font-weight: 700;
+}
+
+.enhc-product-form {
+    counter-reset: headingnum;
+}
+
+.enhc-product-form .pws-form-heading {
+
+    padding: 70px 67px 70px;
+    border: none;
+    margin: 0;
+
+}
+
+.enhc-product-form .pws-form-heading {
+    counter-increment: headingnum;
+}
+
+.enhc-product-form .pws-form-heading legend .num-count {
+    font-size: 13px;
+    font-family: notosansenglish-regular;
+    margin-right: 10px;
+    background: url(../images/icons/polygon-icon-default.svg) center no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+    color: #b6b6b6;
+}
+
+.enhc-product-form .pws-form-heading.active-form legend .num-count, .eh-apply-product-full .enhc-product-form fieldset legend.fixed .num-count {
+    background: url(../images/icons/polygon-icon-active.svg) center no-repeat;
+    color: #ffffff;
+}
+
+.enhc-product-form .row {
+    margin: 0 -15px;
+}
+
+.enhc-product-form .form-group {
+    margin-top: 30px;
+    width: 292px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.enhc-product-form fieldset legend {
+    position: static;
+    top: 0;
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.eh-apply-product-top select, .enhc-product-form .form-control, .enhc-product-form input, .enhc-product-form select, .enhc-product-form textarea, .enhc-product-form input[type="text"], .enhc-product-form input[type="password"], .enhc-product-form textarea, .enhc-product-form input[type="file"] {
+    line-height: 1;
+    width: 100%;
+    opacity: 1;
+    font-family: notosansenglish-regular;
+    font-size: 15px;
+    color: rgba(23, 35, 40, 0.22);
+    color: #172328;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #dee1e2 !important;
+    padding: 0;
+    height: 50px;
+    max-height: 50px;
+    overflow: visible;
+    box-shadow: none;
+    display: block;
+    border-radius: 0;
+
+}
+
+.enhc-product-form .form-control:focus {
+    border-color: #dee1e2;
+}
+
+.enhc-product-form input[type=radio] {
+
+    width: auto;
+    height: auto;
+}
+
+.enhc-product-form .input-group-addon:first-child {
+    display: none;
+}
+
+.enhc-product-form .radio tr {
+    width: auto;
+    display: inline;
+}
+
+.eh-apply-product-top {
+    max-width: 750px;
+    margin: 80px auto;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.enhc-product-form .page-header h1, .eh-apply-product-top .page-header h1 {
+    font-family: notosansenglish-light;
+    font-size: 24px;
+    color: #172328;
+    font-weight: 300;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.enhc-product-form .page-header, .eh-apply-product-top .page-header {
+    margin: 22px 0 20px;
+    padding: 0;
+    border: none;
+}
+
+.eh-apply-product-top .form-group {
+    margin: 50px 0 80px;
+}
+
+.form label {
+
+}
+
+.eh-dark-box {
+    padding: 50px 30px;
+    background: #172328;
+    color: #fff;
+    max-width: 262px;
+    float: right;
+    min-height: 574px;
+}
+
+.eh-dark-box h1, .eh-dark-box h2, .eh-dark-box h3, .eh-dark-box h4, .eh-dark-box h5 {
+    font-family: 'Work Sans';
+    font-size: 14px !important;
+    color: #f5a623 !important;
+    font-weight: 500;
+    line-height: 21px;
+    background: url(../images/icons/tip.svg) no-repeat center left;
+    padding-left: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.eh-dark-box p, .eh-dark-box li {
+    color: #fff !important;
+}
+
+.pws-enhancements .eh-dark-box ul.signatures-list li {
+    font-family: notosansenglish-regular;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 20px;
+    background: url(../images/icons/check-orange.png) no-repeat left 8px;
+}
+
+.pws-enhancements .eh-apply-product-top ul.signatures-list li, .pws-enhancements .eh-apply-product-top ol.number-list li {
+    font-weight: 400 !important;
+}
+
+.pws-enhancements .eh-apply-product-top h4, .pws-enhancements .eh-apply-product-top h3 {
+    margin-top: 0;
+    font-family: notosansenglish-regular;
+    font-size: 11px;
+    color: #5c6568;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.pws-enhancements .eh-apply-product-top .form-submit-border > input, .pws-enhancements .eh-apply-product-full .form-submit-border > input {
+    margin-top: 0;
+    background: #00BAFF !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    padding: 8px 15px !important;
+    text-decoration: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.pws-enhancements .eh-apply-product-top .form-submit-border > input:hover,
+.pws-enhancements .eh-apply-product-full .form-submit-border > input:hover {
+
+    background-color: #9F3C04 !important;
+}
+
+.pws-enhancements .eh-apply-product-top .form-submit-border:hover input, .pws-enhancements .eh-apply-product-full .form-submit-border:hover input {
+    color: #fff !important;
+    text-shadow: 0 0 0.25px #ffffff, 0 0 0.25px #ffffff;
+}
+
+/* GENERIC FIELDS */
+
+.form input, .form select, .form textarea {
+}
+
+/* SELECT OPTION START */
+
+/*
+.enhc-product-form fieldset legend.sticky {
+    position: fixed;
+    z-index: 10;
+    top: 80px;
+    left: auto;
+    right: auto;
+}*/
+
+.enhc-product-form fieldset legend {
+    /* position: relative;
+     z-index: 1;
+     padding: 20px 0;
+     top: 0;*/
+}
+
+.enhc-product-form fieldset legend.fixed {
+    position: fixed;
+    top: 68px;
+    box-sizing: border-box;
+    left: auto;
+    z-index: 6;
+    width: 100%;
+    border: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.enhc-product-form fieldset .row {
+    margin-top: 50px;
+}
+
+.enhc-product-form fieldset legend.fixed.absolute {
+    position: absolute;
+}
+
+.enhc-product-form .pws-form-heading legend.fixed:before {
+    background-image: url(../images/icons/polygon-icon-fill.svg);
+    color: #fff;
+
+}
+
+.enhc-product-form .form-control:focus {
+    border: none;
+}
+
+.eh-apply-product-top.form-success {
+    display: none;
+}
+
+.eh-apply-product-full {
+    /* display: none; */
+}
+
+.eh-apply-product-top form .form-group select.form-control {
+    max-width: 312px;
+}
+
+.eh-apply-product-full .form-submit-border {
+    margin: 00px 80px;
+    display: inline-block;
+    float: none;
+}
+
+.eh-apply-product-full .form fieldset .form-group .help-block.field-validation-error {
+    text-align: left;
+    font-size: 11px;
+    padding: 0;
+    border: none !important;
+}
+
+.eh-apply-product-full .validation-summary-errors {
+    display: none
+}
+
+.exf {
+    width: 750px;
+    height: 404px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    /* background: #ccc; */
+}
+
+.enhc-product-form fieldset .row .row {
+    margin: 0;
+}
+
+.required-field .control-label:before, .required-field .checkbox:after {
+    margin-left: 4px;
+}
+
+.eh-form-state-box {
+
+    width: 750px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    float: none;
+
+}
+
+.eh-form-state-purple-box {
+
+}
+
+#content .eh-form-state-purple-box h3, #content .eh-form-state-purple-box h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+#content .eh-form-state-purple-box p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0;
+    margin: 0;
+}
+
+#content .eh-form-state-box .eh-form-state-purple-box {
+    background: linear-gradient(74deg, #29419b 0%, #172328 100%);
+    overflow: hidden;
+    padding: 70px 185px;
+    color: #fff;
+    margin: 70px 0;
+    text-align: center;
+}
+
+.eh-dark-box a {
+    padding: 50px 0 0;
+    color: #00BAFF;
+    font-size: 11px;
+    float: right;
+    text-decoration: none;
+}
+
+.required-field .control-label:before, .required-field .checkbox:after {
+    float: right;
+}
+
+.form input[type="submit"], .form button {
+    text-shadow: none;   
+    text-decoration: none;
+    border: none !important;
+}
+
+.signatures-list.signatures-list-green.signatures-list-split-two li {
+    width: 49%;
+    display: inline-block;
+}
+
+.eh-form-state-short-details {
+    padding: 0 70px 0;
+    overflow: hidden;
+    margin-bottom: 70px;
+
+}
+
+#content .eh-form-state-short-details h4 {
+    color: #172328;
+    font-family: notosansenglish-regular;
+    margin: 0 0 30px;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.eh-form-state-short-details p {
+    margin: 0 0 30px;
+    line-height: 21px;
+    font-family: notosansenglish-regular;
+    font-size: 11px;
+    color: #5c6568;
+    padding: 0;
+}
+
+select {
+    /* reset */
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+}
+
+/*
+.enhc-product-form .form-group select:before {
+    display: block;
+    content: " ";
+    width: 50px;
+    height: 50px;
+}
+*/
+
+/* arrows */
+
+.eh-apply-product-top .form-group select.form-control, .eh-apply-product-full .form-group select.form-control {
+    width: 100%;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    max-height: none;
+    background: #FFFFFF url(../images/icons/calcul-drop-arrow.png) center right 0px no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+/*
+.eh-apply-product-full .form-group select.form-control {
+    max-width: 100px;
+}
+*/
+
+/*
+.eh-apply-product-top form .form-group select.form-control:active {
+    background-image: url(../images/icons/calcul-drop-arrow.png);
+}
+
+.eh-apply-product-top form .form-group select.form-control:focus {
+    background-image: url(../images/icons/calcul-drop-arrow-up.png);
+}
+
+*/
+.enhc-product-form fieldset .form-group .row > .col-xs-4 {
+    width: auto;
+    padding-left: 0;
+    padding-right: 12px;
+
+}
+
+.enhc-product-form fieldset .form-group .row > .col-xs-4:last-child {
+    padding: 0;
+}
+
+fieldset.active-form .continue-form-section {
+    background: #00BAFF !important;
+    color: #ffffff !important;
+}
+
+fieldset.active-form .continue-form-section {
+    background: #00BAFF !important;
+    color: #ffffff !important;
+}
+
+.joinus-personal-detail.pws-form-heading,
+.joinus-academic-detail.pws-form-heading {
+    padding: 0 0 70px 0 !important;
+}
+
+.joinus-btn-complete .form-submit-border {
+    margin-left: 0;
+}
+
+.enhc-product-form.enhc-contact-us-form {
+    padding-right: 120px;
+    width: auto;
+}
+
+.pws-enhancements #content .eh-apply-product-full .enhc-product-form.enhc-contact-us-form .form-submit-border {
+    margin-bottom: 30px !important;
+}
+
+.eh-apply-product-full fieldset .continue-form-section {
+    display: none
+}
+
+.pws-enhancements .eh-apply-product-top .form-submit-border, .pws-enhancements .eh-apply-product-full .form-submit-border {
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.pws-enhancements .eh-apply-product-top .form-submit-border, .pws-enhancements .eh-apply-product-full .form-submit-border {
+    border: none;
+
+    padding: 0;
+    /* transition: all .5s ease; */
+}

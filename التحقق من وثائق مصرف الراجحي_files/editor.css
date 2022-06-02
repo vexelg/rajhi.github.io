@@ -1,0 +1,122 @@
+body.on-page-editor .scEmptyPlaceholder {
+    /*min-height: 15px;*/
+    min-height: 100px;
+}
+
+body.on-page-editor .row-splitter {
+    clear: both;
+    float: none;
+}
+
+body.on-page-editor .component {
+    /*    min-height: 15px;*/
+    /*    display: block;*/
+}
+
+body.on-page-editor .pws-indefinite-cols-link-list ul li {
+    /*padding: 40px 20px;*/
+}
+
+body.on-page-editor .pws-apply-main-box .component-content .scWebEditInput {
+    display: block;
+}
+
+body.on-page-editor main {
+    min-height: 400px;
+}
+
+body.on-page-editor .main-header .top-nav-container .top-nav-inner li .mega-menu {
+    top: 85px;
+}
+
+body.on-page-editor img.scEnabledChrome[sc-part-of]:not(.carousel.image-full-size .slides img) {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+    min-width: auto
+}
+
+body.on-page-editor .main-header .top-nav-container .top-nav-inner li .mega-menu {
+    top: 84px;
+}
+
+body.on-page-editor .pws-daily-right-debit .promo .field-promoicon img.scEnabledChrome[sc-part-of] {
+    width: auto;
+}
+
+.scEnabledChrome[sc-part-of], .scLooseFrameZone.scEnabledChrome, .scWebEditInput.scEnabledChrome {
+    min-width: auto !important;
+}
+
+body.on-page-editor .branch-locator-filters-box {
+    position: static;
+}
+
+/*
+body.on-page-editor .main-header .top-nav-container .top-nav-inner li .mega-menu {
+    top: 360px;
+}
+
+    body.on-page-editor .pws-toggle-drop-left .pws-discover-list-container {
+    top: 276px !important;
+}
+
+*/
+
+body.on-page-editor .scWebEditInput[contenteditable="true"] {
+    width: -webkit-fill-available;
+}
+
+#breadcrumbMenuSubcontrol_context_menu .sc-breadcrumb .sc-breadcrumb-item-path {
+    border: none;
+}
+
+body.on-page-editor .pws-social-share {
+    position: static
+}
+
+#content .tabs-section .rich-text h2 {
+    padding-bottom: 0
+}
+
+body.on-page-editor #content .pws-section-grid-gray-standard-cards .row-splitter .rich-text h2 {
+    position: static;
+}
+
+body.on-page-editor #content .component {
+    /*margin: 10px 0;*/
+    /*border: 1px dashed rgba(26, 46, 123, 0.3);*/
+}
+
+body.on-page-editor .row-splitter > div {
+    overflow: hidden;
+    background: transparent url(/sitecore/shell/themes/standard/images/pageeditor/EmptyPlaceholderBg.png) repeat;
+}
+
+body.on-page-editor .component.toggle {
+    clear: both;
+}
+
+body.on-page-editor .branch-locator-filters-box .pws-recent-searches-text {
+    display: none !important;
+}
+
+body.on-page-editor .branch-locator-filters-box {
+    position: relative;
+}
+
+body.on-page-editor .component.container {
+    clear: both;
+}
+
+body.on-page-editor.pws-enhancements .pws-popup-subscribe .component-content.stick-bottom {
+    position: static !important;
+}
+
+body.on-page-editor.pws-enhancements .pws-single-column-promo.pws-promo-heading-large.pws-standard-card.pws-standard-card-featured .title-heading * {
+    color: #fff;
+}
+body.on-page-editor .tabs-section .rich-text {
+    clear: both;
+}

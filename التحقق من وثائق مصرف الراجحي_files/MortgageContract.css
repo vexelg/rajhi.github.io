@@ -1,0 +1,314 @@
+﻿.MortgageContractHeader {
+    text-align: center;
+}
+
+.contractdetails {
+    margin-top: 10px;
+}
+
+.authTokenSection {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.urlIssue {
+    text-align: center;
+}
+
+.contactArea {
+    text-align: center;
+}
+
+.contract-actions {
+    text-align: center;
+    padding-bottom: 20px;
+}
+#btnbacktohome{
+	margin-bottom: 4px;
+}
+.tokenMsg {
+    color: #3d803d;
+}
+.contract-MSG {
+    padding-bottom:20px;
+    text-align:center;
+    color: #3d803d;
+    height:60px;
+}
+.contract-approved{
+    display:none;
+color:#3d803d;
+}
+.contract-approved-error{
+        display:none;
+		color:#d3461c;
+}
+.noaccess,.nocic {
+    color: #d3461c;
+}
+.btnbacktohome{
+	display:none !important;
+}
+
+.mainsection {
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: #999286;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.submitToken {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.texttoken {
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btnToken {
+    color: white;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 20%;
+    min-width: 60px;
+    text-shadow: none;
+    background: #B14D1E !important;
+    color: #fff !important;
+}
+
+.btnApprove {
+    background: #bf3e00 !important;
+}
+
+.btnCancel {
+    background: #221AFB !important;
+}
+
+.btnToken:focus,
+.btnToken:hover {
+    background-color: #a1440f !important;
+    color: #fff !important;
+}
+
+.btnCancel:focus,
+.btnCancel:hover {
+    background-color: #4561c8 !important
+}
+
+.input-token {
+    height: 15px;
+    border-color: #337ab7;
+    text-align: left;
+    margin-left: 2%;
+    line-height: 1;
+    opacity: 1;
+    font-family: notosansenglish-regular;
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #dee1e2 !important;
+    padding: 0;
+    padding-left: 5px;
+    width: 15%;
+    overflow: visible;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 0;
+    font-family: notosansenglish-regular !important;
+}
+
+.label-token, .label-date, .label-cic, .label-file {
+    margin-top: 4px;
+    font-family: notosansenglish-regular;
+    color: #172328 !important;
+    font-weight: 700;
+}
+
+/*contract details*/
+.contract-info {
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.cic-div {
+    float: left;
+    text-align: center;
+    width: 45%
+}
+
+.date-div {
+    float: left;
+    text-align: center;
+    width: 55%;
+    padding-right: 40px;
+}
+
+.div-files {
+    text-align: left;
+    margin-left: 15%;
+    padding-bottom: 25px;
+}
+
+.span-contractfile {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.ul-files {
+    padding-top: 10px;
+}
+
+.li-files {
+    padding-top: 7px;
+    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    width: 75%;
+}
+
+.file-button {
+    background-color: #B14D1E !important;
+    border-radius: 5px;
+    color: #fff !important;
+    padding: .5em;
+    text-decoration: none;
+    float: right;
+}
+
+    .file-button:focus,
+    .file-button:hover {
+        background-color: #a1440f !important;
+        color: #fff !important;
+        text-decoration: none;
+    }
+
+.input-valid {
+    color: #a92323;
+}
+
+@media (max-width:400px) {
+    .cic-div {
+        width: 72%;
+		text-align: center;
+    }
+
+    .date-div {
+        width: 84%;
+    }
+
+    .div-files {
+        margin-left: 6%;
+    }
+
+    .contract-info {
+        height: 80px;
+    }
+
+    .cic-div:lang(ar) {
+    padding-right: 16px;
+    }
+	.btnApprove,.btnCancel{
+		width:100px
+	}
+	.mainsection {
+		margin: 8px !important;
+	}
+	.li-files{
+		width: 90%;
+	}
+}
+@media (max-width: 380px){
+.div-files {
+    margin-left: 4%;
+}
+}
+.file-button:lang(ar) {
+    float: left;
+}
+
+.div-files:lang(ar) {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.ul-files:lang(ar) {
+    direction: rtl;
+}
+
+.li-files:lang(ar) {
+    width: 100%
+}
+
+.cic-div:lang(ar) {
+    float: right;
+    direction: rtl;
+    padding-right: 36px;
+	text-align: right;
+}
+
+.date-div:lang(ar) {
+    float: right;
+	text-align: right;
+    direction: rtl;
+	padding-right: 14px;
+}
+
+.contract-actions:lang(ar) {
+    direction: rtl;
+}
+
+.texttoken:lang(ar) {
+    direction: rtl;
+}
+
+/* The Modal (background) */
+.modal-ContractConfirm {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.ContractConfirmModal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    margin-top: 100px;
+}
+
+/* The Close Button */
+.close-modelconfirmation {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close-modelconfirmation:hover,
+    .close-modelconfirmation:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }

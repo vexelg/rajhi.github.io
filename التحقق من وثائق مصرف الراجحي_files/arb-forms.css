@@ -1,0 +1,509 @@
+/*
+html.overlay-source-open .overlay *
+*/
+.overlay > .component-content,
+.overlay .overlay-inner:focus,
+.overlay-page > .component-content,
+.overlay-page .overlay-inner:focus {
+    border-width: 0 !important;
+}
+
+/* FORM ELEMENT */
+.form input, .form select, .form textarea {
+    border: 1px solid #999;
+    max-width: 100%;
+    box-shadow: none;
+}
+
+.radio label, .checkbox label {
+    color: #585858;
+}
+
+#content .form table, #content .login table {
+    width: 100%
+}
+
+.pws-form-layout {
+    background-color: #585858;
+    padding: 200px;
+}
+
+.pws-form-layout .component-content {
+    padding: 70px 100px;
+    width: 720px;
+    margin: 0 auto;
+    float: none;
+}
+
+.pws-form-layout.pws-form-gray-layout .component-content {
+    background-color: #f6f6f6;
+}
+
+.pws-form-layout p {
+    width: 100%;
+    font-family: notosansenglish-regular;
+    font-size: 12px;
+    color: #999999;
+}
+
+.pws-form-layout .page-header {
+    border-bottom: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.pws-form-layout .page-header h1 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-size: 24px;
+
+    color: #172328;
+}
+
+.pws-form-layout fieldset, .pws-form-layout fieldset legend {
+    border: none;
+    background: none;
+
+}
+
+.pws-form-layout fieldset {
+    padding: 50px 0 0;
+}
+
+.pws-form-layout fieldset legend {
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    color: #172328;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.pws-form-layout fieldset .col-md-12 {
+    padding: 0;
+}
+
+.pws-form-layout .form-group .control-label {
+    line-height: 24px;
+    font-size: 16px;
+    color: #585858;
+    font-weight: inherit;
+    float: left;
+    clear: both;
+    display: block;
+}
+
+.pws-form-layout .form-group .help-block {
+    font-family: notosansenglish-regular;
+    font-size: 12px;
+    /*color: #999999;*/
+}
+
+.pws-form-layout .radio-btns {
+    margin: 10px 0 20px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}
+
+.form fieldset .form-group .help-block.field-validation-error {
+    line-height: 1.5;
+    color: #d0011b;
+    display: block;
+    border: 1px solid !important;
+    padding: 2px 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    position: static;
+    bottom: -15px;
+    width: 100%;
+    text-align: center;
+}
+
+.pws-form-layout fieldset .form-group .help-block.field-validation-error, .pws-form-layout .validation-summary-errors {
+    line-height: 1.5;
+    color: #d0011b;
+    display: block;
+    border: 1px solid;
+    padding: 2px 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    position: static;
+    bottom: -15px;
+    width: 100%;
+    text-align: center;
+}
+
+.pws-form-layout fieldset .form-group input[type="text"], .pws-form-layout fieldset .form-group input[type="tel"], .pws-form-layout fieldset .form-group input[type="number"], .pws-form-layout fieldset .form-group input[type="email"], .pws-form-layout fieldset .form-group select {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+    height: 51px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #999999 !important;
+    font-size: 16px;
+    color: #172328;
+    box-shadow: none;
+}
+
+.pws-form-layout input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.pws-form-layout input::-webkit-outer-spin-button,
+.pws-form-layout input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.pws-form-layout fieldset .form-group select {
+    max-height: none;
+    padding-right: 48px;
+    background: #fff url(../images/arrows/dd-img.jpg) center right 14px no-repeat;
+    border-color: #999;
+
+}
+
+.pws-form-layout .form-submit-border input[type="submit"] {
+    display: inline-block;
+    padding: 12px 23px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 3px solid transparent;
+    color: #c04400 !important;
+    position: relative;
+    text-decoration: none;
+    border-color: #c04400;
+    background-color: #c04400;
+    border-radius: 0;
+    text-shadow: none;
+    box-shadow: none;
+    font-family: notosansenglish-regular;
+}
+
+/*
+.pws-form-layout fieldset .width-left.form-group, .pws-form-layout fieldset .width-right.form-group {
+    float: left;
+
+}*/
+.pws-form-layout fieldset .form-group {
+    vertical-align: top;
+}
+
+.pws-form-layout fieldset .halfAvailableWidth {
+    width: calc(50% - 12px);
+    display: inline-block;
+}
+
+.pws-form-layout fieldset .halfAvailableWidth:nth-child(1) {
+    margin-right: 10px;
+}
+
+.pws-form-layout fieldset .halfAvailableWidth:nth-child(2) {
+    margin-left: 10px;
+}
+
+/*.pws-form-layout fieldset .form-group .radio input[type="radio"] {
+    display: none;
+}
+
+.pws-form-layout fieldset .form-group .radio tr {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.pws-form-layout fieldset .form-group .radio label {
+    display: block;
+    cursor: pointer;
+
+    font-size: 0;
+    padding: 0;
+    text-indent: -99px;
+    overflow: hidden;
+}
+
+.pws-form-layout fieldset .form-group .radio label span {
+    display: block;
+    padding: 12px 0;
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 2px #999999;
+    border-radius: 3px;
+    color: #585858;
+    text-indent: 0;
+    font-size: 16px;
+}
+
+.pws-form-layout fieldset .form-group .radio label input[type="radio"]:checked + span {
+    background-color: #585858;
+    border: solid 2px #585858;
+    color: #FFFFFF;
+}
+
+.pws-form-layout fieldset .form-group .radio label:before, .pws-form-layout fieldset .form-group .radio label:after {
+    content: none;
+}*/
+
+.pws-form-layout fieldset .row {
+    margin: 0;
+}
+
+.pws-form-layout {
+    background-color: transparent;
+    padding: 0 !important;
+}
+
+.pws-form-layout fieldset .form-group textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 25px;
+    margin: 0;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #999999;
+
+    font-size: 16px;
+    color: #172328;
+    box-shadow: none;
+    resize: none;
+}
+
+.pws-form-layout .txt-line {
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.pws-form-layout .txt-line-short {
+    color: #fff;
+    font-size: 14px;
+}
+
+.pws-form-layout .txt-amount .currency {
+    white-space: pre;
+    text-align: right;
+    padding: 00;
+    margin: 0;
+}
+
+.pws-form-layout .txt-amount {
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 0;
+    text-align: right !important;
+    width: 100%;
+    display: block;
+}
+
+.pws-form-layout .txt-amount.large {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    /* text-align: right; */
+}
+
+.pws-form-layout .form-submit-border input[type="submit"] {
+    color: #FFFFFF !important;
+}
+
+.pws-form-layout .form-inline-btns {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c04400;
+
+}
+
+.pws-form-layout .form-inline-btns a {
+
+    margin-right: 20px;
+}
+
+.pws-form-white-layout {
+    clear: both;
+}
+
+.pws-form-white-layout .component-content {
+    background: #fff;
+    width: 756px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.pws-form-white-layout .page-header h1 {
+    font-size: 32px;
+    color: #29419b;
+    font-weight: 400;
+}
+
+.pws-form-white-layout .page-header h1 img {
+    margin-right: 12px !important;
+}
+
+.pws-form-white-layout fieldset .form-group input[type="text"], .pws-form-white-layout fieldset .form-group input[type="email"], .pws-form-white-layout fieldset .form-group select {
+
+}
+
+.pws-form-white-layout .radio-inline, .pws-form-white-layout .checkbox-inline {
+
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #585858;
+    max-width: 200px;
+    vertical-align: top;
+}
+
+.pws-form-white-layout fieldset .form-group select {
+    background-size: 16px;
+    /*opacity: .6;*/
+    border-color: inherit;
+}
+
+.calculations-info-box {
+    margin: 20px 0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calculations-info-box .text-line2, .calculations-info-box p {
+    font-size: 14px;
+}
+
+.calculations-info-box .blue-bg {
+    background: #29419b;
+    padding: 20px;
+    color: #fff;
+}
+
+.calculations-info-box .terms-block {
+    border: 1px solid #29419b;
+    padding: 20px;
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.pws-form-layout .form-group .control-label img[data-toggle] {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.info-icon-tooltip {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 3px;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icons/info-icon-white.jpg) no-repeat center;
+    vertical-align: middle;
+}
+
+.info-icon-tooltip.gray {
+    background-image: url(../images/icons/info-icon-white.jpg);
+}
+
+.info-icon-tooltip.white {
+    background-image: url(../images/icons/info-icon-blue.jpg);
+
+}
+
+.ui-tooltip:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #4a4a4a;
+    border-width: 7px;
+    margin-left: -7px;
+
+}
+
+.ui-tooltip {
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 !important;
+    box-shadow: none;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    text-align: center;
+    font-family: notosansenglish-regular;
+}
+
+.pws-form-layout .form-submit-border {
+    background: #c04400 !important;
+    margin-top: 20px;
+}
+
+.pws-form-layout fieldset .halfAvailableWidth.radio, .pws-form-layout fieldset .halfAvailableWidth.radio table {
+    width: 100%;
+    clear: both;
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+body .pws-form-layout fieldset .form-group input[type=radio] {
+    visibility: visible;
+}
+
+.pws-form-layout fieldset table tr {
+    display: inline-block !important;
+    float: left;
+    margin-right: 10px;
+}
+
+.pws-form-layout .radio label, .pws-form-layout .checkbox label {
+    margin: 10px 0;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.pws-enhancements .pws-popup-subscribe .form-submit-border {
+    display: block !important;
+}
+

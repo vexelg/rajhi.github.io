@@ -1,0 +1,313 @@
+[lang="ar"] .enhc-product-form fieldset legend {
+    text-align: right;
+}
+
+[lang="ar"] .enhc-product-form .joinus-personal-detail .form-group,
+[lang="ar"] .enhc-product-form .joinus-academic-detail .form-group {
+    display: inline-block;
+}
+
+[lang="ar"] .enhc-product-form .pws-form-heading legend .num-count {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+[lang="ar"] .enhc-product-form .pws-form-heading .row .col-md-12{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+[lang="ar"] .enhc-product-form .joinus-personal-detail .col-md-12,
+[lang="ar"] .enhc-product-form .joinus-academic-detail .col-md-12 {
+    text-align: right;
+}
+
+[lang="ar"] .enhc-product-form .radio label,
+[lang="ar"] .enhc-product-form .checkbox label {
+    margin-right: 0;
+    min-width: 76px;
+    text-align: right;
+}
+
+[lang="ar"] .eh-apply-product-full fieldset.active-form .continue-form-section {
+    float: right;
+}
+
+[lang="ar"] .pws-enhancements .eh-apply-product-full .joinus-btn-complete .form-submit-border {
+    float: right;
+    margin: 0;
+}
+
+[lang="ar"] .enhc-product-form label {
+    float: none;
+}
+
+[lang="ar"] .pws-main-findabranch-container .map {
+    float: left;
+}
+
+[lang="ar"] #content .container.branch-locator-filters-box {
+    float: right;
+}
+
+[lang="ar"] .branch-locator-filters-box .pws-branches-box li.active .pws-branch .pws-back-to-search-btn {
+    background: none !important;
+}
+
+[lang="ar"] .branch-locator-filters-box .pws-branches-box li.active .pws-branch .pws-back-to-search-btn:before {
+    float: left;
+    left: 7px;
+    right: auto;
+}
+
+[lang="ar"] .pws-working-hour-item .itm-title {
+    margin-right: 0;
+    margin-left: 13px;
+}
+
+
+[lang="ar"] .pws-main-findabranch-container .map .gm-style .gm-style-iw {
+    position: absolute !important;
+    top: 0 !important;
+}
+
+[lang="ar"] .gm-style .eh-city-distance {
+    right: auto;
+    left: 11px;
+}
+
+[lang="ar"] .gm-style .eh-branch {
+    border-right: 0;
+    border-left: 1px solid #e8e8e8;
+}
+
+[lang="ar"] body.pws-enhancements .pws-inpagenav-container .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+[lang="ar"] .eh-apply-product-top .row.column-splitter>.col-xs-8 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-heading .facet-title {
+    text-align: right;
+}
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.force-show .facet-heading .facet-title{
+    background-position: 0 center;
+}
+[lang="ar"] .eh-filters-all .facet-single-selection-list .facet-heading{
+    text-align: right;
+}
+
+[lang="ar"].branch-locator-filters-box .bottom-filter-button{
+    margin-bottom:0;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-heading {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-heading .clear-filter {
+    margin: 12px 20px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list .facet-search-filter .facet-value{
+    text-align: right;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-search-filter .facet-value:nth-child(odd) {
+    padding-left: 10px;
+    padding-right:23px;
+    margin:10px 15px 15px 10px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-search-filter .facet-value:nth-child(even) {
+    padding-left: 23px;
+    padding-right: 10px;
+    margin:10px 15px 15px 10px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list .facet-search-filter .facet-value {
+    width: calc(56% - 45px);
+    margin: 15px 15px 15px 7px;
+    padding: 0 0 0 23px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .contentContainer {
+    margin: 0;
+    width: 100%;
+}
+
+
+[lang="ar"] .facet-single-selection-list.branchesoratm .facet-search-filter {
+    float: left;
+    width: 74%;
+    text-align: right;
+    padding-right: 0 !important;
+    padding-left: 10px;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-search-filter .facet-value:before {
+    right: auto;
+    left: 0;
+    float: left;
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-heading .clear-filter {
+    top: 59px;
+    margin: 10px;
+    padding-left: 23px;
+    text-align: right !important
+}
+
+[lang="ar"] .branch-locator-filters-box .facet-single-selection-list.branchesoratm .facet-heading .clear-filter:before {
+    right: auto;
+    left: 0;
+    float: left;
+    position: absolute;
+}
+
+[lang="ar"] .eh-filters-all .facet-value input+label:before {
+    right: auto;
+    left: 0;
+    float: left;
+}
+
+
+/* product form styles */
+[lang="ar"] .enhc-product-form .form-group {
+    text-align: right;
+    display:inline-block;
+}
+
+[lang="ar"] .eh-apply-product-full fieldset .continue-form-section {
+    float:right;
+    margin-right:10px;
+}
+
+[lang="ar"] .eh-apply-product-full .form-submit-border{
+    float: right;
+    margin-right:76px;
+}
+
+[lang="ar"] .enhc-product-form .radio label{
+    
+    text-align: left;
+	padding: 0 30px;
+}
+
+[lang="ar"] .enhc-product-form .radio label:before{
+    right:0;
+    left:auto;
+}
+
+[lang="ar"] .radio [type="radio"]:checked,
+[lang="ar"] .radio [type="radio"]:not(:checked) {
+    right:-9999px;
+    left:auto;
+}
+
+[lang="ar"] .eh-apply-product-full .form fieldset .form-group .help-block.field-validation-error{
+    text-align: right;
+}
+
+[lang="ar"] .required-field .control-label:before,
+[lang="ar"] .required-field .checkbox:after{
+    float:left;
+    margin-left:0;
+    margin-right:4px;
+}
+
+[lang="ar"] .eh-apply-product-top #criteria,
+[lang="ar"] .eh-apply-product-top .form-submit-border {
+    margin-left: 0;
+    margin-right:20px;
+}
+
+[lang="ar"] .eh-form-state-box ul.signatures-list.signatures-list-green li {
+    background-position: right center;
+}
+
+[lang="ar"] .pws-enhancements .eh-apply-product-top .eh-dark-box {
+    float: left;
+}
+
+[lang="ar"] .pws-enhancements .eh-apply-product-top .form-submit-border {
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+    float:left;
+}
+
+/* product form styles */
+
+@media screen and (max-width: 1024px) {
+    [lang="ar"] .pws-enhancements .pws-single-column-promo.pws-standard-card .component-content .promo-content .btn-content {
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /* [lang="ar"] .branch-locator-filters-box .bottom-filter-button {
+        margin-bottom:0 !important;
+    }
+ */
+     [lang="ar"] .eh-apply-product-full .form-submit-border{
+         margin-right:73px;
+     }
+    
+    [lang="ar"] .branch-locator-filters-box .facet-single-selection-list .facet-search-filter .facet-value{
+        width: calc(52% - 45px);
+    }
+    [lang="ar"] .branch-locator-filters-box .pws-branches-box li.active .pws-branch .pws-back-to-search-btn:before {
+        left: 27px;
+    }
+
+    [lang="ar"] .pws-enhancements .page-list.whats-new .enhc-description {
+        height: auto;
+    }
+
+    [lang="ar"] .pws-enhancements .promo.pws-row-accordion-container .accordion {
+        width: 100%;
+    }
+
+    [lang="ar"] .pws-enhancements .btn-content .link-with-arrow:before {
+        margin-top: 4px;
+    }
+
+    [lang="ar"] body.pws-enhancements .pws-single-column-promo .component-content .promo-content .pws-promo-content-block>p {
+        text-align: center;
+    }
+
+    [lang="ar"] ul.signatures-list {
+        display: inline-block;
+    }
+
+    [lang="ar"] .eh-mobile-switch-buttons {
+        display: flex !important;
+        align-items: center;
+    }
+
+    [lang="ar"] .eh-mobile-switch-buttons .e-btn {
+        flex: 1;
+    }
+
+    [lang="ar"] .branch-locator-filters-box .pws-filter-toggle {
+        position: static;
+    }
+
+    [lang="ar"] .pws-branch .pws-heading-top-box:before {
+        right: auto !important;
+        left: 20px !important;
+    }
+}
+
+
+[lang="ar"] .pws-enhancements #content .pws-enhc-how-to-apply .pws-apply-now-links .owl-carousel.owl-rtl .owl-item {
+    float: left;
+}

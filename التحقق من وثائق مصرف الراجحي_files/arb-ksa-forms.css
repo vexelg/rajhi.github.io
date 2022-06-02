@@ -1,0 +1,106 @@
+.ksa-form-hidden-section{
+    display: none;
+}
+.ksa-form-section{
+    border: none !important;
+}
+.ksa-form-section>div{
+margin-top: auto !important;
+}
+.ksa-form-section>div>div>div{
+    width: 50% ;
+    }
+.ksa-form-section>div>div>div>label{
+    font-size: 13px !important;
+    font-weight: bold !important;
+    }
+.ksa-form-section>div>div>div>select{
+        font-size: 15px !important;
+        font-weight: normal!important;
+        }
+
+.ksa-form-section>legend{
+    background-color: #edeff0 !important;
+    padding: 10px !important;
+    text-align: center !important;
+}
+.oneelementinrow{
+    display: block !important;
+}
+.oneElementFullRow {
+    width: 90% !important;
+}
+.ksa-form-checkbox>div>label{
+    pointer-events: auto !important;
+    padding-left: 40px !important;
+    border: 0!important;
+    outline: 0!important;
+    
+    color: #172328 !important;
+    font-family: notosansenglish-regular !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+.ksa-form-checkbox.has-error>div{
+    background-color: none !important;
+}
+.ksa-form-checkbox.has-success>div{
+    background-color: #221AFB !important;
+}
+.ksa-form-checkbox>div{
+    width:25px!important;
+    height: 25px!important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.ksa-form-checkbox>span
+{
+    text-align: center!important;
+}
+.ksa-form-checkbox>.checkbox::after{
+    content:none !important;
+}
+.ksa-form-section .form-group .help-block {
+    display: -webkit-box !important;
+    color: #e22b2b;
+}
+.branchCode input
+{
+    background-color: inherit !important;
+    color: #3d3e3e !important;
+}
+[lang="ar"] .CityListOptions{
+    float:right;
+}
+.ksa-form-section-private-association{
+    display: none;
+}
+.ksa-form-section-private-institution{
+    display: none;
+}
+.ksa-form-section-family-found{
+    display: none;
+}
+.ksa-form-section-private-waqf{
+    display: none;
+}
+.ksa-form-section-commandment{
+    display: none;
+}
+.enhc-product-form .bg-warning .list-group-item-warning
+{
+	margin-top: 17px;
+	font-size: 18px;
+	font-weight: 800;
+	color: red;
+
+}
+	
+.enhc-product-form .bg-warning
+{
+	width : 100% !important;
+	position: absolute;
+	z-index: 9;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%);	
+}

@@ -1,0 +1,429 @@
+﻿.openlegalaccount-header{
+    margin-top:20px;
+    text-align:center;
+}
+.div-datasubmit {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.div-getuserdatacontent {
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+.input-token-openlegalaccount {
+    border-color: #337ab7;
+    text-align: left;
+    margin-left: 2%;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #dee1e2 !important;
+    padding: 0;
+    padding-left: 5px;
+    width: 60%;
+    overflow: visible;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 0;
+    text-align: center;
+}
+[lang="ar"] .input-token-openlegalaccount
+{
+font-family: Work Sans!important;	
+}
+.input-ContactUs-eara{
+    padding-top:10px;
+    border-color: #337ab7;
+    text-align: left;
+    margin-left: 2%;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #dee1e2 !important;
+    padding: 0;
+    padding-left: 5px;
+    width: 60%;
+    overflow: visible;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 0;
+}
+
+
+.btnsubmit {
+    color: white;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 20%;
+    min-width: 60px;
+    text-shadow: none;
+    background: #00BAFF  !important;
+    color: #fff !important;
+    margin-top: 8px;
+}
+
+.btnApprove {
+    background: #bf3e00 !important;
+}
+
+.btnCancel {
+    background: #29419b !important;
+}
+
+.btnsubmit:focus,
+.btnsubmit:hover {
+    background-color: #0a94c7 !important;
+    color: #fff !important;
+}
+
+.btnCancel:focus,
+.btnCancel:hover {
+    background-color: #4561c8 !important
+}
+
+.select-idtype {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAACUElEQVR42u3XwQ0CMQxFwR8agVKojAOVUcrSCKYBckBaKbvJTAdx9GS5VVWA35pAQCAgEBAICAQEAgIBgYBAQCCAQEAgIBAQCAgEBAICAYGAQEAgpgACAYGAQEAgIBAQCAgEBAICAQQCAgGBgEBAICAQEAgIBAQCAgEEAgIBgYBAQCAgEBAICAQEAggEBAICAYGAQEAgIBAQCAgEBAIIBAQCAgGBgEBAICAQEAgIBBAICAQEAgIBgYBAQCAgEBAICAQQCAgEBAICAYGAQEAgIBAQCAhEICAQEAgIpPeQ1i5JnkluvnWoLcmjqj4COV4k1yQvkQyN415VbxtEJEwex7Q3iEjEIRCRiEMgIhGHQEQiDoGIRBwCEYk4BCIScawRx3KBiEQcAhGJOAQiEnEIRCTiEIhIxCEQkYhDICIRh0BEIg6BiGTJSMQhEJGIQyAiEYdARCIOgYhEHAIRiTgEIhJxCEQk4hCISM4aiTgEIhJxCEQk4hCISMQhEJGIQyAiEYdADPI4kYhDICIRh0BEIg6BiEQcAhGJOATCgEjEIRCRiEMgIhGHQESySyTiEIhIxCEQkYhDIOwSiTgEIhJxCIT/IhGHQETSiUQcAqETiTgEQieSiEMg9COJOAQCAgGBgEBAIIBAQCAgEBAICAQEAgIBgYBAAIGAQEAgIBAQCAgEBAICAYGAQACBgEBAICAQEAgIBAQCAgGBgEAEAgIBgYBAQCAgEBAICAQEAgIBBAICAYGAQEAgIBAQCAgEBAICAQQCAgGBgEBAICAQEAjM5wu5Un+edYs0pQAAAABJRU5ErkJggg==) no-repeat right;
+    background-size: 16px;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #dee1e2 !important;
+    width:60%;
+    text-align-last: center;
+    
+}
+
+.requiredvalues
+{
+    display:none;
+}
+.requiredvalues span ,.required
+{ 
+    color:red !important;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+}
+.errormsg{
+    text-align:center;
+     color:red !important;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+    padding-top:15px;
+}
+.openlegalaccountlbl
+{
+    width:25%;
+    padding-right:2%;
+}
+[lang="ar"] .openlegalaccountlbl {
+     padding-right:unset;
+      padding-left:2%;
+}
+#openlegalaccount-details
+{
+     display:none;
+}
+#openlegalaccount-details >div {
+   
+    /*border: solid 1px;
+    border-radius: 7px;
+    border-color: #999286;
+    padding:10px;*/
+    margin-top: 25px;
+}
+.openlegalaccount-status {
+    text-align: center;   
+    color: #f70000;
+    font-size: 15px;
+    display:none;
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: #999286;
+    padding:10px;
+    margin-top: 25px;
+}
+/*.requestdata
+{
+    border: solid 1px;
+    border-radius: 7px;
+    border-color: #999286;
+    padding:10px;
+}*/
+.sectionHeader-div {
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #edeff0 !important;
+    margin-bottom: 20px;
+}
+
+#request-information-openlegalaccount div .col-md-6 label {
+    display: inherit;
+}
+
+#request-information-openlegalaccount div .col-md-6 label:nth-child(2) {
+   font-weight: normal;
+}
+.content-openlegalaccount{
+    margin:20px 0px;
+}
+
+#request-information-openlegalaccount .row {
+    padding: 0px 20px 10px 20px;
+}
+#contact-us-openlegalaccount .row{
+    padding: 0px 20px 10px 20px;
+}
+
+#contact-us-openlegalaccount div .col-md-2 label {
+    padding: 10px 15px 10px 0px;
+}
+.input-email {
+width:50%
+}
+.input-ContactUs-texteara {
+    border: 1px solid #dee1e2 !important;
+    height: 90px;
+    width: 86%;
+}
+
+.input-tel-contactus
+{
+    width:80% !important;
+}
+[lang="ar"] .input-tel-contactus {
+     width:90% !important;
+}
+.sendemailresult > div{
+    display:none;
+    text-align:center;
+}
+
+
+.sendemail-success span, #expirelettermsg {
+    color: forestgreen !important;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+}
+
+#expirelettermsg{
+    padding-top:15px;
+    font-weight: bold;
+}
+.sendemail-failed span {
+    color: red !important;
+    line-height: 1;
+    opacity: 1;
+    font-family: "Work Sans";
+    font-size: 15px;
+    color: #172328;
+    font-weight: 400;
+}
+
+.disablesubmit {
+    cursor: not-allowed;
+    pointer-events: none;
+    /*Button disabled - CSS color class*/
+    color: #c0c0c0 !important;
+    background-color: #ffffff !important;
+}
+.contactusphone-element
+{
+    float:left;
+    width:62% !important;
+}
+[lang="ar"] .contactusphone-element {
+    float: right;
+}
+[lang="ar"] .contactusphone-element span {
+    float: left;
+}
+#openlegalaccount-Result{
+    height:630px;
+}
+
+.openlegalaccount-header div label {
+    padding: 10px !important;
+}
+.openlegalaccount-header div {
+    background-color: #edeff0 !important;
+    margin-bottom: 20px;
+}
+.div-getuserdatacontent div{
+    margin-top:20px;
+}
+
+@media (max-width:700px) {
+    [lang="ar"] .div-getuserdatacontent .col-md-6 {
+        float: none;
+    }
+
+    [lang="ar"] #request-information-openlegalaccount .row .col-md-6 {
+        float: none;
+    }
+
+    [lang="ar"] #contact-us-openlegalaccount .row .col-md-6 {
+        float: none;
+    }
+    [lang="ar"] #contact-us-openlegalaccount .row .col-md-2 {
+        float: none;
+    }
+     [lang="ar"] #contact-us-openlegalaccount .row .col-md-10 {
+        float: none;
+    }
+    #openlegalaccount-Result {
+        height: 1100px;
+    }
+    .btnsubmit {
+        width: 35%;
+    }
+}
+.contactusphone-element span {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.captch-input button
+{
+	background: none !important;
+    border: none !important;
+}
+
+.uploaddocument-container,.uploadarea, .hidesection,.hideError{
+    display:none;
+}
+.showuploadsection{
+    display:inline !important;
+}
+.hideuploadsection{
+    display:none !important;
+}
+.disableselect{
+        cursor: not-allowed;
+    opacity: .6;
+    pointer-events: none;
+}
+.loadingimg {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/-/media/Themes/BaseTheme-ARB-PWS/images/loaders/animated_spinner.gif') 50% 50% no-repeat;
+}
+.captcha div{
+    width:30%;
+    float:left;
+}
+.captcha label{
+    float:left;
+    padding-top:30px;
+}
+.captcha{
+    height:100px;
+}
+[lang="ar"] .captcha div{
+	float:right !important;
+}
+[lang="ar"] .captcha label {
+    float: right !important;
+}
+
+[lang="ar"] .capbox {
+        border-width: 2px 20px 2px 2px !important;
+}
+
+.capbox {
+        background-color: #ffffff;
+        background-image: linear-gradient(#f3f0f0,#fff); 
+        border-width: 2px 2px 2px 20px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        display: inline-block;
+        padding: 5px 8px 5px 8px;
+        border-radius: 4px 4px 4px 4px;
+    }
+
+    .capbox-inner {
+        background-color: #ffffff;
+        margin: 0px auto 0px auto;
+        padding: 3px 10px 5px 10px;
+        border-radius: 4px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #captcha-container {
+        
+        font-style: italic;
+        text-align: center;
+        vertical-align: middle;
+        user-select: none;
+        display: inline-block;
+        padding: 3px 14px 3px 8px;
+        margin-right: 4px;
+        border-radius: 4px;
+		width:200px;
+    }
+
+    #txtCaptchString {
+        margin: 3px 0px 1px 0px;
+        width: 70%;
+    }
+    .captch-content{
+        padding-top:20px;
+    }
+    .img-refresh {
+        display: inline;
+        width: 40px;
+        height: auto;
+        padding: 0px 5%;
+        height: 26px;
+    }
+    .captch-input
+    {
+        padding:5px 0px;
+    }
+
+	
